@@ -24,4 +24,12 @@ html {
     width: auto;
     height: 100px;
 }
+.home img{
+  width: auto;
+  height: 500px;
+}
+.home p{
+ float: right;
+}
+
 

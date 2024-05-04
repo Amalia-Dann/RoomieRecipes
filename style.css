@@ -1,10 +1,24 @@
 html {
     background-color: #f8fff6;
   }
-.nav {
-    
+.nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+.nav li{
+    margin: 0;
+    padding: 0;
+    display: inline;
+  }
+.nav button{
+    margin: auto;
+    width: 300px;
+    height: 100px;
+}
+.nav img{
+    margin: auto;
+    width: auto;
+    height: 100px;
 
 }

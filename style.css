@@ -1,4 +1,10 @@
 html {
     background-color: #f8fff6;
   }
-  
+.nav {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}

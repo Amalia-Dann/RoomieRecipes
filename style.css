@@ -7,18 +7,21 @@ html {
     padding: 0;
 }
 .nav li{
-    margin: 0;
-    padding: 0;
-    display: inline;
+    float:left;
   }
-.nav button{
-    margin: auto;
-    width: 300px;
-    height: 100px;
+.nav li a:hover {
+    background-color: orange;
+  }
+.nav a{
+    display:block;
+    margin: 20px 0;
+    padding: 15px 90px;
+    background-color: greenyellow;
 }
 .nav img{
-    margin: auto;
+    display:block;
+    padding: 0 15px;
     width: auto;
     height: 100px;
-
 }
+

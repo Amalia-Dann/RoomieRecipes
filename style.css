@@ -1,6 +1,11 @@
 html {
     background-color: #f8fff6;
   }
+.nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
 .nav ul{
     list-style-type: none;
     margin: 0;

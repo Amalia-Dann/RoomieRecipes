@@ -775,3 +775,14 @@ Recipe Template
   color: var(--primary-500);
   text-transform: capitalize;
 }
+
+/*
+=============== 
+Home
+===============
+*/
+.home {
+  width: 60%; /* Image takes 60% of the screen width */
+  border-radius: var(--borderRadius);
+  object-fit: cover;
+}

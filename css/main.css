@@ -552,34 +552,62 @@ About Page
 ===============
 */
 
-.about-page h2 {
-  text-transform: none;
-  font-weight: bold;
+/* Additions for the new page layout */
+
+/* Container for the profiles and sidebar */
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 0;
 }
-.about-page {
-  display: grid;
-  gap: 2rem 4rem;
-  padding-bottom: 3rem;
+
+/* Profile section */
+.profiles {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
-.about-img {
+
+/* Individual profile */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile img {
+  width: 150px;
+  height: auto;
   border-radius: var(--borderRadius);
-  height: 300px;
+  object-fit: cover;
 }
 
-@media screen and (min-width: 992px) {
-  .about-page {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 400px;
-    align-items: center;
-  }
-  .about-img {
-    height: 100%;
-  }
+/* Description next to the image */
+.description {
+  flex: 1;
 }
 
-.featured-title {
-  text-align: center;
+/* Sidebar section */
+.sidebar {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+.sidebar p {
+  max-width: none;
+}
+
+.contact-btn {
+  margin-top: 2rem;
+  align-self: flex-start;
+}
+
 /*
 =============== 
 Contact Page

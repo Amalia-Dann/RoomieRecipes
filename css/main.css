@@ -782,7 +782,7 @@ Home
 ===============
 */
 .home {
-  width: 60%; /* Image takes 60% of the screen width */
+  width: 90%; /* Image takes 60% of the screen width */
   border-radius: var(--borderRadius);
   object-fit: cover;
 }

@@ -348,7 +348,10 @@ Navbar
     margin-right: 1rem;
     font-size: 1rem;
   }
-  .contact-link {
+  .navbar-search {
+    margin-right: 1rem;
+  }
+  .profile-link {
     margin-right: 0;
     margin-left: auto;
   }

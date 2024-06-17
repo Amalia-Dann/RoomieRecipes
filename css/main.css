@@ -566,6 +566,14 @@ About Page
   padding: 2rem 0;
 }
 
+.profile-page {
+  text-align: center;
+  padding-top: 5rem;
+}
+.profile-page h1 {
+  font-size: 9rem;
+}
+
 /* Profile section */
 .profiles {
   flex: 3;
@@ -783,16 +791,28 @@ Recipe Template
 Home
 ===============
 */
+/*
+=============== 
+Home
+===============
+*/
 .home {
-  width: 100%; /* Ensures the container div takes full width */
-  border-radius: var(--borderRadius);
-  object-fit: cover;
+  width: 60%; /* Adjust the width of the container div to 60% */
+  display: inline-block; /* Display the container div inline */
+  vertical-align: top; /* Align to the top of the parent container */
 }
 
 .home img {
-  width: 75%; /* Image takes 75% of the screen width */
-  border-radius: inherit; /* Ensures the image inherits the border radius from the parent */
+  width: 100%; /* Image takes full width of the .home container */
+  border-radius: var(--borderRadius); /* Ensures the image inherits the border radius from the parent */
   object-fit: cover;
+}
+
+.sidebar {
+  width: 38%; /* Adjust the width of the sidebar to 38% */
+  display: inline-block; /* Display the sidebar inline */
+  vertical-align: top; /* Align to the top of the parent container */
+  padding-left: 2%; /* Add padding to separate it from the image */
 }
 
 /*

@@ -554,7 +554,6 @@ About Page
 ===============
 */
 
-/* Additions for the new page layout */
 
 /* Container for the profiles and sidebar */
 .container {
@@ -611,11 +610,13 @@ About Page
 
 .sidebar p {
   max-width: none;
+  padding-left: 30px;
 }
 
 .contact-btn {
   margin-top: 2rem;
-  align-self: flex-start;
+  padding-left: 30px;
+  
 }
 
 /*
@@ -786,11 +787,6 @@ Recipe Template
   text-transform: capitalize;
 }
 
-/*
-=============== 
-Home
-===============
-*/
 /*
 =============== 
 Home

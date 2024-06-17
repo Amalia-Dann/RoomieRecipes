@@ -784,7 +784,13 @@ Home
 ===============
 */
 .home {
-  width: 90%; /* Image takes 60% of the screen width */
+  width: 100%; /* Ensures the container div takes full width */
   border-radius: var(--borderRadius);
+  object-fit: cover;
+}
+
+.home img {
+  width: 75%; /* Image takes 75% of the screen width */
+  border-radius: inherit; /* Ensures the image inherits the border radius from the parent */
   object-fit: cover;
 }

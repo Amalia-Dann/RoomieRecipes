@@ -788,3 +788,68 @@ Home
   border-radius: var(--borderRadius);
   object-fit: cover;
 }
+
+
+/*
+=============== 
+Profile
+===============
+*/
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 2rem auto;
+}
+
+.profile-picture-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.profile-picture {
+  width: 60vw;
+  max-width: 300px; /* Ensure it doesn't get too large */
+  border-radius: var(--borderRadius);
+  object-fit: cover;
+}
+
+.profile-details {
+  margin-top: 1rem;
+}
+
+.profile-details p {
+  margin: 0.5rem 0;
+}
+
+.profile-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.profile-action-link,
+.profile-action-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--borderRadius);
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--white);
+  background: var(--primary-500);
+  transition: var(--transition);
+  text-decoration: none;
+}
+
+.profile-action-link:hover,
+.profile-action-button:hover {
+  background: var(--primary-700);
+}
+
+.profile-action-button {
+  border: none;
+  cursor: pointer;
+}

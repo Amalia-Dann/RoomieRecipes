@@ -607,6 +607,7 @@ About Page
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: 30px;
 }
 
 .sidebar p {

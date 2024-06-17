@@ -566,6 +566,14 @@ About Page
   padding: 2rem 0;
 }
 
+.profile-page {
+  text-align: center;
+  padding-top: 5rem;
+}
+.profile-page h1 {
+  font-size: 9rem;
+}
+
 /* Profile section */
 .profiles {
   flex: 3;

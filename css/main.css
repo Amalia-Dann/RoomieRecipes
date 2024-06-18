@@ -882,11 +882,11 @@ Saved Recipes
 */
 
 .savedrecipe{
-
+  margin: auto;
 }
 
 .savedrecipe-img{
-  height: 15rem;
+  height: 25rem;
   width: auto;
   border-radius: var(--borderRadius);
   margin-bottom: 1rem;

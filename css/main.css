@@ -931,3 +931,30 @@ Saved Recipes
 myRecipes
 ===============
 */
+.recipe-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.recipe-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.recipe-form .form-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.ingredient-item {
+  margin-bottom: 0.5rem;
+}

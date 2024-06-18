@@ -875,6 +875,31 @@ Profile
   cursor: pointer;
 }
 
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 3ch;
+}
+
+td {
+  border: none;
+  padding: 8px;
+  text-align: left;
+}
+
+td strong {
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: var(--primary-700);
+}
+
+tr:hover {
+  background-color:var(--primary-400);
+}
+
+
 /*
 =============== 
 Saved Recipes

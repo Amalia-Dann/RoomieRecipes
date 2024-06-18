@@ -44,34 +44,37 @@
     </nav>
     <!-- end of nav -->
     <main class="page myrecipes-page">
-        <div class="recipe-form-container">
-          <form class="recipe-form">
-            <div class="form-row">
-              <label for="recipe-name" class="form-label">Recipe Name</label>
-              <input type="text" id="recipe-name" class="form-input" placeholder="Add Recipe Name">
-            </div>
-            <div class="form-row">
-              <label for="recipe-image" class="form-label">Upload Image</label>
-              <input type="file" id="recipe-image" class="form-input">
-            </div>
-            <div class="form-row">
-              <label for="recipe-description" class="form-label">Description</label>
-              <input type="text" id="recipe-description" class="form-input" placeholder="Add Description">
-            </div>
-            <div class="sidebar">
-              <label class="form-label">Serving size in Portions:</label>  
-              <input type="number">  
-              <label for="ingredients-count" class="form-label">Number of Ingredients</label>
-              <input type="number" id="ingredients-count" class="form-input" min="1" value="1">
-              <div id="ingredients-list">
-                <div class="form-row ingredient-item">
-                  <input type="text" class="form-input" placeholder="Add ingredient">
-                </div>
+      <div class="recipe-form-container">
+        <form class="recipe-form">
+          <div class="form-row">
+            <label for="recipe-name" class="form-label">Recipe Name</label>
+            <input type="text" id="recipe-name" class="form-input" placeholder="Add Recipe Name">
+          </div>
+          <div class="form-row">
+            <label for="recipe-image" class="form-label">Upload Image</label>
+            <input type="file" id="recipe-image" class="form-input">
+          </div>
+          <div class="form-row">
+            <label for="recipe-description" class="form-label">Description</label>
+            <input type="text" id="recipe-description" class="form-input" placeholder="Add Description">
+          </div>
+          <div class="sidebar">
+            <label class="form-label">Serving size in Portions:</label>  
+            <input type="number">  
+            <label for="ingredients-count" class="form-label">Number of Ingredients</label>
+            <input type="number" id="ingredients-count" class="form-input" min="1" value="1">
+            <div id="ingredients-list">
+              <div class="form-row ingredient-item">
+                <input type="text" class="form-input" placeholder="Add ingredient">
               </div>
             </div>
-          </form>
-        </div>
-      </main>
+            <label for="cooking-time" class="form-label">Cooking Time (minutes)</label>
+            <input type="number" id="cooking-time" class="form-input" placeholder="Add Cooking Time">
+            <button type="submit" class="btn submit-btn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </main>
     <!-- footer -->
     <footer class="page-footer">
       <p>

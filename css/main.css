@@ -554,8 +554,6 @@ About Page
 ===============
 */
 
-
-/* Container for the profiles and sidebar */
 .container {
   display: flex;
   justify-content: space-between;
@@ -795,22 +793,22 @@ Home
 ===============
 */
 .home {
-  width: 60%; /* Adjust the width of the container div to 60% */
-  display: inline-block; /* Display the container div inline */
-  vertical-align: top; /* Align to the top of the parent container */
+  width: 60%; 
+  display: inline-block; 
+  vertical-align: top; 
 }
 
 .home img {
-  width: 100%; /* Image takes full width of the .home container */
-  border-radius: var(--borderRadius); /* Ensures the image inherits the border radius from the parent */
+  width: 100%; 
+  border-radius: var(--borderRadius); 
   object-fit: cover;
 }
 
 .sidebar {
-  width: 38%; /* Adjust the width of the sidebar to 38% */
-  display: inline-block; /* Display the sidebar inline */
-  vertical-align: top; /* Align to the top of the parent container */
-  padding-left: 2%; /* Add padding to separate it from the image */
+  width: 38%;
+  display: inline-block; 
+  vertical-align: top; 
+  padding-left: 2%;
 }
 
 /*
@@ -875,4 +873,21 @@ Profile
 .profile-action-button {
   border: none;
   cursor: pointer;
+}
+
+/*
+=============== 
+Saved Recipes
+===============
+*/
+
+.savedrecipe{
+
+}
+
+.savedrecipe-img{
+  height: 15rem;
+  width: auto;
+  border-radius: var(--borderRadius);
+  margin-bottom: 1rem;
 }

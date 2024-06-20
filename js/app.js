@@ -118,7 +118,7 @@ recipes = [{"id":1,
   "cookT":"999 min", 
   "servings":"999 servings",
   "ingredients": "placeholder"
-   } 
+   } ]
   
 
 function recipeClicked(id){

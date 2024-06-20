@@ -7,8 +7,6 @@
     <title>Recipes</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
-    <!-- normalize -->
-    <link rel="stylesheet" href="./css/normalize.css" />
     <!-- font-awesome -->
     <link
       rel="stylesheet"
@@ -16,6 +14,7 @@
     />
     <!-- main css -->
     <link rel="stylesheet" href="./css/main.css" />
+    <script src="app.js"></script>
   </head>
   <body>
      <!-- nav  -->
@@ -61,11 +60,11 @@
         <!-- recipes list -->
         <div class="recipes-list">
           <!-- single recipe -->
-          <a href="single-recipe.html" class="recipe">
+          <a  class="recipe" >
             <img
               src="./assets/recipes/recipe-1.jpeg"
               class="img recipe-img"
-              alt="" onclick=""
+              alt="Carne Asada" onclick="recipeClicked(1)"
             />
             <h5>Carne Asada</h5>
             <p>Prep : 15min | Cook : 5min</p>
@@ -76,7 +75,7 @@
             <img
               src="./assets/recipes/recipe-2.jpeg"
               class="img recipe-img"
-              alt=""
+              alt="Greek Ribs" onclick="recipeClicked(2)"
             />
             <h5>Greek Ribs</h5>
             <p>Prep : 15min | Cook : 5min</p>
@@ -87,7 +86,7 @@
             <img
               src="./assets/recipes/recipe-3.jpeg"
               class="img recipe-img"
-              alt=""
+              alt="Vegetable Soup" onclick="recipeClicked(3)"
             />
             <h5>Vegetable Soup</h5>
             <p>Prep : 15min | Cook : 5min</p>
@@ -98,7 +97,7 @@
             <img
               src="./assets/recipes/recipe-4.jpeg"
               class="img recipe-img"
-              alt=""
+              alt="Banana Pancakes" onclick="recipeClicked(4)"
             />
             <h5>Banana Pancakes</h5>
             <p>Prep : 15min | Cook : 5min</p>

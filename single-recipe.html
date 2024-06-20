@@ -16,6 +16,21 @@
     />
     <!-- main css -->
     <link rel="stylesheet" href="./css/main.css" />
+    <script>
+      window.onload = function(){
+        const recipe = JSON.parse(sessionStorage.getItem("selectedRecipe"));
+
+        document.getElementById("image").src = recipe.img;
+        document.getElementById("title").textContent = recipe.name;
+        document.getElementById("description").textContent = recipe.content;
+        document.getElementById("prepT").textContent = recipe.prepT;
+        document.getElementById("cookT").textContent = recipe.cookT;
+        document.getElementById("servings").textContent = recipe.servings;
+        for (let index = 0; index < recipe.incredients.length; index++) {
+          document.getElementById("incredients").createElement("li");
+  }
+  }
+    </script>
   </head>
   <body>
      <!-- nav  -->
@@ -49,35 +64,28 @@
         <section class="recipe-hero">
           <img
             src="./assets/recipes/recipe-4.jpeg"
-            class="img recipe-hero-img"
+            class="img recipe-hero-img" id="image"
           />
           <article class="recipe-info">
-            <h2>Banana Pancakes</h2>
-            <p>
-              Shabby chic humblebrag banh mi bushwick, banjo kale chips
-              meggings. Cred selfies sartorial, cloud bread disrupt blue bottle
-              seitan. Dreamcatcher tousled bitters, health goth vegan venmo
-              whatever street art lyft shabby chic pitchfork beard. Drinking
-              vinegar poke tbh, iPhone coloring book polaroid truffaut tousled
-              ramps pug trust fund letterpress. Portland four loko austin
-              chicharrones bitters single-origin coffee. Leggings letterpress
-              occupy pour-over.
+            <h2 id="title">error</h2>
+            <p id="description">
+              error
             </p>
             <div class="recipe-icons">
               <article>
                 <i class="fas fa-clock"></i>
                 <h5>prep time</h5>
-                <p>30 min.</p>
+                <p id="prepT">error</p>
               </article>
               <article>
                 <i class="far fa-clock"></i>
                 <h5>cook time</h5>
-                <p>15 min.</p>
+                <p id="cookT">error</p>
               </article>
               <article>
                 <i class="fas fa-user-friends"></i>
                 <h5>serving</h5>
-                <p>6 servings</p>
+                <p id="servings">error</p>
               </article>
             </div>
             <p class="recipe-tags">
@@ -93,9 +101,9 @@
           <article class="second-column">
             <div>
               <h4>ingredients</h4>
-              <p class="single-ingredient">1 1/2 cups dry pancake mix</p>
-              <p class="single-ingredient">1/2 cup flax seed meal</p>
-              <p class="single-ingredient">1 cup skim milk</p>
+              <ul id="incredients">
+                <li>error</li>
+              </ul>
             </div>
           </article>
         </section>

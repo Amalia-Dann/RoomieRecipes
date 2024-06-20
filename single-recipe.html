@@ -26,9 +26,7 @@
         document.getElementById("prepT").textContent = recipe.prepT;
         document.getElementById("cookT").textContent = recipe.cookT;
         document.getElementById("servings").textContent = recipe.servings;
-        for (let index = 0; index < recipe.incredients.length; index++) {
-          document.getElementById("incredients").createElement("li");
-  }
+        document.getElementById("incredients").textContent = recipe.incredients;
   }
     </script>
   </head>
@@ -101,8 +99,8 @@
           <article class="second-column">
             <div>
               <h4>ingredients</h4>
-              <ul id="incredients">
-                <li>error</li>
+              <p id="incredients">
+              </p>
               </ul>
             </div>
           </article>

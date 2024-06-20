@@ -976,3 +976,16 @@ myRecipes
 .page.myrecipes-page .submit-btn {
   margin-top: 1rem;
 }
+
+.container-myrecipe{
+  display: flex;
+}
+
+.content-myrecipe{
+  flex: 1;
+  padding-right: 100px;
+}
+
+.sidebar-myrecipe{
+  width: 250px;
+}

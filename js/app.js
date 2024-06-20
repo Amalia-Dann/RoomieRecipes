@@ -69,7 +69,7 @@ recipes = [
 {"id":4,
   "name":"Banana Pancakes", 
   "img":"./assets/recipes/recipe-4.jpeg", 
-  "content":"Separate the eggs. Mash or puree the bananas. Mix the flour, rolled oats, milk, egg yolk and bananas into a smooth batter. In a separate bowl, beat the egg whites until stiff and add a pinch of salt. Fold the egg whites into the smooth batter to make it nice and fluffy. Heat a large frying pan and brush with olive oil. Place small "heaps" of batter in the pan. Fry the pancakes on both sides until golden brown. Enjoy while still warm!",
+  "content":"Separate the eggs. Mash or puree the bananas. Mix the flour, rolled oats, milk, egg yolk and bananas into a smooth batter. In a separate bowl, beat the egg whites until stiff and add a pinch of salt. Fold the egg whites into the smooth batter to make it nice and fluffy. Heat a large frying pan and brush with olive oil. Place small 'heaps' of batter in the pan. Fry the pancakes on both sides until golden brown. Enjoy while still warm!",
   "prepT":"999 min", 
   "cookT":"999 min", 
   "servings":"3 servings",

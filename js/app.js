@@ -60,20 +60,20 @@ recipes = [
 {"id":3,
   "name":"Vegetable Soup", 
   "img":"./assets/recipes/recipe-3.jpeg", 
-  "content":"Placeholder",
-  "prepT":"999 min", 
-  "cookT":"999 min", 
-  "servings":"999 servings",
-  "ingredients": "placeholder"
+  "content":"Finely dice the onions. Clean the carrots and kohlrabi and cut into strips. Sauté the vegetables in a little butter until translucent and pour in the stock. Simmer for about 5 minutes, then remove about half of the vegetables from the stock. Puree the remaining vegetables in the stock. Melt the cream cheese in the soup over a low heat and add the vegetable strips. Serve the soup sprinkled with the chopped parsley.",
+  "prepT":"10 min", 
+  "cookT":"10 min", 
+  "servings":"4 servings",
+  "ingredients": "5 carrot(s) \n 2 kohlrabi \n 2 metre-large onion(s) \n 200 g cream cheese, natural \n ¾ litre vegetable stock \n butter \n Parsley, chopped"
 },
 {"id":4,
   "name":"Banana Pancakes", 
   "img":"./assets/recipes/recipe-4.jpeg", 
-  "content":"Placeholder",
+  "content":"Separate the eggs. Mash or puree the bananas. Mix the flour, rolled oats, milk, egg yolk and bananas into a smooth batter. In a separate bowl, beat the egg whites until stiff and add a pinch of salt. Fold the egg whites into the smooth batter to make it nice and fluffy. Heat a large frying pan and brush with olive oil. Place small "heaps" of batter in the pan. Fry the pancakes on both sides until golden brown. Enjoy while still warm!",
   "prepT":"999 min", 
   "cookT":"999 min", 
-  "servings":"999 servings",
-  "ingredients": "placeholder"
+  "servings":"3 servings",
+  "ingredients": "100 g flour \n 75 g rolled oats, fine \n 250 ml milk \n 2 metre-large banana(s) \n 3 egg(s) \n 1 pinch(es) of salt \n olive oil"
 },
 {"id":5,
   "name":"Omelette with tomatoes, spinach and asparagus", 

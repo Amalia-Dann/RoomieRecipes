@@ -39,23 +39,23 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 recipes = [
-{ "id":1, 
+{"id":1, 
   "name":"Carne Asada", 
   "img":"./assets/recipes/recipe-1.jpg", 
   "content":"Whisk together Mexican ale, orange juice, lime juice, 1/4 cup oil, garlic, 2 tablespoons salt, vinegar, Worcestershire sauce, black pepper, oregano, paprika, cumin, and cloves in a large bowl until spices are evenly incorporated. Trim 4 spring onions or 6 scallions, and cut in half lengthwise. Using the palm of your hand against a flat work surface, lightly smash spring onions until a little moisture is released. Combine smashed spring onions, flap steak, white onion, chiles, cilantro, and ale mixture in a large ziplock plastic bag. Seal bag, and shake to thoroughly mix; gently massage marinade into steak. Chill at least 2 hours or up to 12 hours.\n\nRemove steak from marinade, and pat dry using paper towels; discard marinade. Place steak on a wire rack set over a rimmed baking sheet. Let stand at room temperature 30 minutes. Meanwhile, preheat grill to very high (500°F to 550°F).\n\nPlace steak on lightly oiled grates. Grill, uncovered, until lightly charred in spots and a thermometer inserted in thickest portion of steak registers 125°F for medium-rare, 3 to 5 minutes per side, or to desired degree of doneness. Transfer steak to a cutting board, and let rest 5 minutes.\n\nMeanwhile, trim remaining 6 spring onions or 11 scallions; toss with remaining 1 tablespoon oil and remaining 1/8 teaspoon salt in a medium bowl until well coated. Place spring onions on oiled grates, and grill, uncovered, turning occasionally, until softened and lightly charred, 4 to 6 minutes.\n\nSlice steak against the grain; serve with grilled spring onions, warm tortillas, and salsa.",
   "prepT":"30 min", 
   "cookT":"180 min", 
   "servings":"4 servings",
-  "ingredients":"3/4 cup (6 ounces) dark Mexican ale \n 1/2 cup fresh orange juice\n1/4 cup fresh lime juice\n1/4 cup plus 1 tablespoon grapeseed oil, divided\n6 medium garlic cloves, finely chopped (about 2 tablespoons)\n2 tablespoons plus 1/8 teaspoon fine sea salt, divided\n1 tablespoon apple cider vinegar\n2 1/2 teaspoons Worcestershire sauce\n1 teaspoon black pepper\n1/2 teaspoon Mexican oregano\n1/2 teaspoon smoked paprika\n1/4 teaspoon ground cumin\n1/8 teaspoon ground cloves\n10 spring onions or 15 scallions, divided\n2 pounds flap steak, patted dry\n1 small white onion, thinly sliced (about 1 3/4 cups)\n2 serrano chiles, stemmed and halved lengthwise\n1 cup chopped fresh cilantro\nWarm tortillas and salsa, for serving"
-  },
+  "ingredients":"3/4 cup (6 ounces) dark Mexican ale \n 1/2 cup fresh orange juice\n1/4 cup fresh lime juice\n1/4 cup plus 1 tablespoon grapeseed oil, divided\n6 medium garlic cloves, finely chopped (about 2 tablespoons)\n2 tablespoons plus 1/8 teaspoon fine sea salt, divided\n1 tablespoon apple cider vinegar\n2 1/2 teaspoons Worcestershire sauce\n1 teaspoon black pepper\n1/2 teaspoon Mexican oregano\n1/2 teaspoon smoked paprika\n1/4 teaspoon ground cumin\n1/8 teaspoon ground cloves\n10 spring onions or 15 scallions, divided\n2 pounds flap steak, patted dry\n1 small white onion, thinly sliced (about 1 3/4 cups)\n2 serrano chiles, stemmed and halved lengthwise\n1 cup chopped fresh cilantro\nWarm tortillas and salsa, for serving",
+},
 { "id":2,
   "name":"Greek Ribs", 
   "img":"./assets/recipes/recipe-2.jpeg", 
-  "content":"Placeholder",
+  "content":"Prepare the Ribs: Remove the membrane from the back of the ribs for better flavor and tenderness. Use a knife to loosen the membrane and then pull it off using a paper towel for better grip.\n Make the Marinade: In a bowl, mix together the minced garlic, olive oil, lemon juice, red wine vinegar, dried oregano, thyme, rosemary, parsley, paprika, salt, black pepper, cumin, cinnamon (if using), and lemon zest.\nMarinate the Ribs: Place the ribs in a large resealable plastic bag or a large baking dish. Pour the marinade over the ribs, making sure they are well coated. Seal the bag or cover the dish with plastic wrap and refrigerate for at least 2 hours, preferably overnight for maximum flavor.\n Prepare for Cooking: Preheat your oven to 300°F (150°C). Line a baking sheet with aluminum foil and place a wire rack on top. Remove the ribs from the marinade and place them on the wire rack. Reserve the marinade.\nBake the Ribs: Cover the ribs with aluminum foil and bake in the preheated oven for about 2.5 to 3 hours, or until the meat is tender and starts to pull away from the bones.\nFinish the Ribs: Preheat your grill to medium-high heat. Brush the ribs with the reserved marinade and grill for about 5-10 minutes on each side, or until they are nicely browned and slightly charred. Keep a close eye on them to prevent burning.\nServe: Remove the ribs from the grill and let them rest for a few minutes. Garnish with fresh chopped parsley and serve with lemon wedges on the side.\nTips: If you don’t have a grill, you can finish the ribs under the broiler in your oven. Place them on the top rack and broil for about 3-5 minutes on each side, watching closely to prevent burning.\nThese ribs go well with a side of Greek salad, tzatziki sauce, and pita bread.",
   "prepT":"10 min", 
   "cookT":"65 min", 
-  "servings":"999 servings",
-  "ingredients":"placeholder"
+  "servings":"4 servings",
+  "ingredients":"2 racks of baby back ribs (about 4 pounds total)\n4 cloves garlic, minced\n1/4 cup olive oil\n1/4 cup lemon juice\n1/4 cup red wine vinegar\n2 tablespoons dried oregano\n1 tablespoon dried thyme\n1 tablespoon dried rosemary\n1 tablespoon dried parsley\n1 tablespoon paprika\n1 teaspoon salt\n1 teaspoon black pepper\n1/2 teaspoon ground cumin\n1/2 teaspoon ground cinnamon (optional)\nZest of 1 lemon\nFresh parsley, chopped (for garnish)\nLemon wedges (for serving)"
   },
 { "id":3,
   "name":"Vegetable Soup", 
@@ -69,7 +69,7 @@ recipes = [
 {"id":4,
   "name":"Banana Pancakes", 
   "img":"./assets/recipes/recipe-4.jpeg", 
-  "content":"Separate the eggs. Mash or puree the bananas. Mix the flour, rolled oats, milk, egg yolk and bananas into a smooth batter. In a separate bowl, beat the egg whites until stiff and add a pinch of salt. Fold the egg whites into the smooth batter to make it nice and fluffy. Heat a large frying pan and brush with olive oil. Place small 'heaps' of batter in the pan. Fry the pancakes on both sides until golden brown. Enjoy while still warm!",
+  "content":"Separate the eggs. Mash or puree the bananas. Mix the flour, rolled oats, milk, egg yolk and bananas into a smooth batter. In a separate bowl, beat the egg whites until stiff and add a pinch of salt. Fold the egg whites into the smooth batter to make it nice and fluffy. Heat a large frying pan and brush with olive oil. Place small "heaps" of batter in the pan. Fry the pancakes on both sides until golden brown. Enjoy while still warm!",
   "prepT":"999 min", 
   "cookT":"999 min", 
   "servings":"3 servings",

@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Trigger initial change to set up the default number of ingredient fields
+  
   ingredientsCountInput.dispatchEvent(new Event('change'));
 
 });

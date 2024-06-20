@@ -3,12 +3,12 @@
 ::before {
   box-sizing: border-box;
 }
-/* fonts */
+
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap');
 html {
   font-size: 100%;
-} /*16px*/
+} 
 
 :root {
   /* colors */
@@ -131,7 +131,6 @@ ul {
   display: block;
   object-fit: cover;
 }
-/* buttons */
 
 .btn {
   cursor: pointer;
@@ -369,6 +368,7 @@ Page
   max-width: var(--max-width);
   margin: 0 auto;
 }
+
 .page {
   padding-top: 2rem;
   min-height: calc(100vh - (6rem + 4rem));
@@ -548,6 +548,7 @@ Error
 .error-page h1 {
   font-size: 9rem;
 }
+
 /*
 =============== 
 About Page
@@ -571,7 +572,6 @@ About Page
   font-size: 9rem;
 }
 
-/* Profile section */
 .profiles {
   flex: 3;
   display: flex;
@@ -579,7 +579,6 @@ About Page
   gap: 2rem;
 }
 
-/* Individual profile */
 .profile {
   display: flex;
   align-items: center;
@@ -593,13 +592,11 @@ About Page
   object-fit: cover;
 }
 
-/* Description next to the image */
 .description {
   flex: 1;
   text-align: justify;
 }
 
-/* Sidebar section */
 .sidebar {
   flex: 2;
   display: flex;
@@ -829,12 +826,12 @@ Profile
 .profile-picture-section {
   display: flex;
   align-items: flex-start;
-  gap: 2rem; /* Add gap between image and table */
+  gap: 2rem; 
 }
 
 .profile-picture {
   width: 60vw;
-  max-width: 300px; /* Ensure it doesn't get too large */
+  max-width: 300px; 
   border-radius: var(--borderRadius);
   object-fit: cover;
 }

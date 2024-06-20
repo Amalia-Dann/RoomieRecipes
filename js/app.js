@@ -74,54 +74,51 @@ recipes = {"id":1,
   "servings":"999 servings",
   "ingredients": "placeholder"
 },
-  {"id":5,
-    "name":"Omelette with tomatoes, spinach and asparagus", 
-    "img":"./assets/recipes/recipe-5.jpeg", 
-    "content":"Mix the eggs and cream. Put the butter in a pan and heat over a medium heat. Chop the onion, add and fry until soft. Add the halved tomatoes, spinach and chopped asparagus and fry briefly. Add the egg mixture and reduce the heat again, allowing the eggs to set. Season to taste with salt and pepper.",
-    "prepT":"10 min", 
-    "cookT":"10 min", 
-    "servings":"2 servings",
-    "ingredients": "4 egg(s) \n 1 tsp butter \n 60 ml cream \n 30 g spinach \n 1 small onion(s),red \n 100 g cocktail tomatoes \n 3 thick asparagus tips"
-    }
-  ,
-  {"id":6,
-    "name":"Cool fitness couscous", 
-    "img":"./assets/recipes/recipe-6.jpeg", 
-    "content":"Prepare the couscous with the vegetable stock according to the packet instructions. Add 2 tbsp oil and mix well. Set aside for now. Peel and finely dice the onion. Clean the pepper and cut into small cubes. Peel the cucumber and dice a little coarser. Once the couscous has cooled, mix it with the vegetables and add the remaining oil and vinegar. Season to taste with salt, pepper, the juice of half a lemon, chilli oil and parsley. Mix everything well. Prepare a dressing from the yoghurt, the remaining lemon juice, parsley and salt and serve with the salad.
-    "prepT":"30 min", 
-    "cookT":"5 min", 
-    "servings":"4 servings",
-    "ingredients": "250 g couscous (preferably instant couscous) \n ½ cucumber(s)1 pepper(s) \n 1 lemon(s), the juice from it \n 1 pot of yoghurt \n 1 small onion(s) \n pepper \n chilli oil or chilli powder \n 2 tbsp vinegar4 tbsp oilsome vegetable stock, instant salt \n chopped parsley"
-    }
-    ,
-    {"id":7,
-      "name":"Banana Pancakes", 
-      "img":"./assets/recipes/recipe-4.jpeg", 
-      "content":"Placeholder",
-      "prepT":"999 min", 
-      "cookT":"999 min", 
-      "servings":"999 servings",
-      "ingredients": "placeholder"
-      }
-      ,
-      {"id":8,
-        "name":"Banana Pancakes", 
-        "img":"./assets/recipes/recipe-4.jpeg", 
-        "content":"Placeholder",
-        "prepT":"999 min", 
-        "cookT":"999 min", 
-        "servings":"999 servings",
-        "ingredients": "placeholder"
-        }
-      {"id":9,
-        "name":"Banana Pancakes", 
-        "img":"./assets/recipes/recipe-4.jpeg", 
-        "content":"Placeholder",
-        "prepT":"999 min", 
-        "cookT":"999 min", 
-        "servings":"999 servings",
-        "ingredients": "placeholder"
-        }  
+{"id":5,
+  "name":"Omelette with tomatoes, spinach and asparagus", 
+  "img":"./assets/recipes/recipe-5.jpeg", 
+  "content":"Mix the eggs and cream. Put the butter in a pan and heat over a medium heat. Chop the onion, add and fry until soft. Add the halved tomatoes, spinach and chopped asparagus and fry briefly. Add the egg mixture and reduce the heat again, allowing the eggs to set. Season to taste with salt and pepper.",
+  "prepT":"10 min", 
+  "cookT":"10 min", 
+  "servings":"2 servings",
+  "ingredients": "4 egg(s) \n 1 tsp butter \n 60 ml cream \n 30 g spinach \n 1 small onion(s),red \n 100 g cocktail tomatoes \n 3 thick asparagus tips",
+    },
+{"id":6,
+  "name":"Cool fitness couscous", 
+  "img":"./assets/recipes/recipe-6.jpeg", 
+  "content":"Prepare the couscous with the vegetable stock according to the packet instructions. Add 2 tbsp oil and mix well. Set aside for now. Peel and finely dice the onion. Clean the pepper and cut into small cubes. Peel the cucumber and dice a little coarser. Once the couscous has cooled, mix it with the vegetables and add the remaining oil and vinegar. Season to taste with salt, pepper, the juice of half a lemon, chilli oil and parsley. Mix everything well. Prepare a dressing from the yoghurt, the remaining lemon juice, parsley and salt and serve with the salad.",
+  "prepT":"30 min", 
+  "cookT":"5 min", 
+  "servings":"4 servings",
+  "ingredients": "250 g couscous (preferably instant couscous) \n ½ cucumber(s)1 pepper(s) \n 1 lemon(s), the juice from it \n 1 pot of yoghurt \n 1 small onion(s) \n pepper \n chilli oil or chilli powder \n 2 tbsp vinegar4 tbsp oilsome vegetable stock, instant salt \n chopped parsley"
+  },
+{"id":7,
+  "name":"Banana Pancakes", 
+  "img":"./assets/recipes/recipe-7.jpeg", 
+  "content":"Placeholder",
+  "prepT":"999 min", 
+  "cookT":"999 min", 
+  "servings":"999 servings",
+  "ingredients": "placeholder"
+  },
+{"id":8,
+  "name":"Banana Pancakes", 
+  "img":"./assets/recipes/recipe-8.jpeg", 
+  "content":"Placeholder",
+  "prepT":"999 min", 
+  "cookT":"999 min", 
+  "servings":"999 servings",
+  "ingredients": "placeholder"
+  },
+{"id":9,
+  "name":"Banana Pancakes", 
+  "img":"./assets/recipes/recipe-9.jpeg", 
+  "content":"Placeholder",
+  "prepT":"999 min", 
+  "cookT":"999 min", 
+  "servings":"999 servings",
+  "ingredients": "placeholder"
+   } 
   
 
 function recipeClicked(id){

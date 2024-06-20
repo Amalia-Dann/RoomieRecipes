@@ -38,15 +38,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
-recipes = [
-{"id":1, 
+recipes = [{"id":1, 
   "name":"Carne Asada", 
   "img":"./assets/recipes/recipe-1.jpg", 
   "content":"Whisk together Mexican ale, orange juice, lime juice, 1/4 cup oil, garlic, 2 tablespoons salt, vinegar, Worcestershire sauce, black pepper, oregano, paprika, cumin, and cloves in a large bowl until spices are evenly incorporated. Trim 4 spring onions or 6 scallions, and cut in half lengthwise. Using the palm of your hand against a flat work surface, lightly smash spring onions until a little moisture is released. Combine smashed spring onions, flap steak, white onion, chiles, cilantro, and ale mixture in a large ziplock plastic bag. Seal bag, and shake to thoroughly mix; gently massage marinade into steak. Chill at least 2 hours or up to 12 hours.\n\nRemove steak from marinade, and pat dry using paper towels; discard marinade. Place steak on a wire rack set over a rimmed baking sheet. Let stand at room temperature 30 minutes. Meanwhile, preheat grill to very high (500°F to 550°F).\n\nPlace steak on lightly oiled grates. Grill, uncovered, until lightly charred in spots and a thermometer inserted in thickest portion of steak registers 125°F for medium-rare, 3 to 5 minutes per side, or to desired degree of doneness. Transfer steak to a cutting board, and let rest 5 minutes.\n\nMeanwhile, trim remaining 6 spring onions or 11 scallions; toss with remaining 1 tablespoon oil and remaining 1/8 teaspoon salt in a medium bowl until well coated. Place spring onions on oiled grates, and grill, uncovered, turning occasionally, until softened and lightly charred, 4 to 6 minutes.\n\nSlice steak against the grain; serve with grilled spring onions, warm tortillas, and salsa.",
   "prepT":"30 min", 
   "cookT":"180 min", 
   "servings":"4 servings",
-  "ingredients":"3/4 cup (6 ounces) dark Mexican ale \n 1/2 cup fresh orange juice\n1/4 cup fresh lime juice\n1/4 cup plus 1 tablespoon grapeseed oil, divided\n6 medium garlic cloves, finely chopped (about 2 tablespoons)\n2 tablespoons plus 1/8 teaspoon fine sea salt, divided\n1 tablespoon apple cider vinegar\n2 1/2 teaspoons Worcestershire sauce\n1 teaspoon black pepper\n1/2 teaspoon Mexican oregano\n1/2 teaspoon smoked paprika\n1/4 teaspoon ground cumin\n1/8 teaspoon ground cloves\n10 spring onions or 15 scallions, divided\n2 pounds flap steak, patted dry\n1 small white onion, thinly sliced (about 1 3/4 cups)\n2 serrano chiles, stemmed and halved lengthwise\n1 cup chopped fresh cilantro\nWarm tortillas and salsa, for serving",
+  "ingredients":"3/4 cup (6 ounces) dark Mexican ale \n 1/2 cup fresh orange juice\n1/4 cup fresh lime juice\n1/4 cup plus 1 tablespoon grapeseed oil, divided\n6 medium garlic cloves, finely chopped (about 2 tablespoons)\n2 tablespoons plus 1/8 teaspoon fine sea salt, divided\n1 tablespoon apple cider vinegar\n2 1/2 teaspoons Worcestershire sauce\n1 teaspoon black pepper\n1/2 teaspoon Mexican oregano\n1/2 teaspoon smoked paprika\n1/4 teaspoon ground cumin\n1/8 teaspoon ground cloves\n10 spring onions or 15 scallions, divided\n2 pounds flap steak, patted dry\n1 small white onion, thinly sliced (about 1 3/4 cups)\n2 serrano chiles, stemmed and halved lengthwise\n1 cup chopped fresh cilantro\nWarm tortillas and salsa, for serving"
 },
 {"id":2,
 "name":"Greek Ribs", 
@@ -83,7 +82,7 @@ recipes = [
   "cookT":"10 min", 
   "servings":"2 servings",
   "ingredients": "4 egg(s) \n 1 tsp butter \n 60 ml cream \n 30 g spinach \n 1 small onion(s),red \n 100 g cocktail tomatoes \n 3 thick asparagus tips",
-    },
+  },
 {"id":6,
   "name":"Cool fitness couscous", 
   "img":"./assets/recipes/recipe-6.jpeg", 
@@ -101,8 +100,7 @@ recipes = [
   "cookT":"30 min", 
   "servings":"4 servings",
   "ingredients": "8 midsized potato(s) \n 1 lemon(s), untreated \n 2 tbsp olive oil \n 50 ml vegetable stock, made with 3 pinches of instant powder \n 1 tbsp sea salt, coarse \n 2 tbsp parsley, chopped \n 2 clove(s) of garlic \n 300 g low-fat yoghurt \n salt \n pepper"
-  }
-,
+  },
 {"id":8,
   "name":"Courgette pancakes", 
   "img":"./assets/recipes/recipe-8.jpeg", 
@@ -111,8 +109,7 @@ recipes = [
   "cookT":"15 min", 
   "servings":"3 servings",
   "ingredients": "500 g courgette \n 2 egg(s) \n 6 tbsp flour \n Herbs, chopped, to taste \n olive oil \n 1 pot of yoghurt \n 1 clove(s) of garlic \n salt and pepper"
-  }
-,
+  },
 {"id":9,
   "name":"Egyptian Koshari", 
   "img":"./assets/recipes/recipe-9.jpeg", 
@@ -121,8 +118,7 @@ recipes = [
   "cookT":"20 min", 
   "servings":"2 servings",
   "ingredients": "1 tin of chickpeas (150g) \n 1 tin of lentils (150g) \n 400g rice \n 150 g vermicelli (soup noodles) \n 150 g croissant pasta \\n Ingredients for the tomato and vinegar sauce \n 1 tin of strained tomatoes (250 g) \n 3 onions \n 4 garlic cloves \n 2 tbsp tomato puree \n 1 lemon (squeezed) \n 50 ml vinegar \n 1 dash of oil \\n Ingredients for seasoning \n 1 pinch of cumin \n 1 pinch of coriander (dried) \n 1 pinch of chilli (dried) \n 1 pinch of cardamom"
-  }
-  ]
+  }]
   
 
 function recipeClicked(id){

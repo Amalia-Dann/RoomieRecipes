@@ -45,7 +45,7 @@ recipes = [{"id":1,
   "prepT":"999 min", 
   "cookT":"999 min", 
   "servings":"999 servings",
-  "incredients": ["Incredient 1: 200l","Incredient 2: 50t"]
+  "incredients": "incredients": "placeholder"
 },
 {"id":2,
 "name":"Greek Ribs", 
@@ -54,7 +54,7 @@ recipes = [{"id":1,
 "prepT":"999 min", 
 "cookT":"999 min", 
 "servings":"999 servings",
-"incredients": ["Incredient 1: 200l","Incredient 2: 50t"]
+"incredients": "incredients": "placeholder"
 },
 {"id":3,
   "name":"Vegetable Soup", 
@@ -63,7 +63,7 @@ recipes = [{"id":1,
   "prepT":"999 min", 
   "cookT":"999 min", 
   "servings":"999 servings",
-  "incredients": ["Incredient 1: 200l","Incredient 2: 50t"]
+  "incredients": "placeholder"
 },
 {"id":4,
   "name":"Banana Pancakes", 
@@ -72,7 +72,7 @@ recipes = [{"id":1,
   "prepT":"999 min", 
   "cookT":"999 min", 
   "servings":"999 servings",
-  "incredients": ["Incredient 1: 200l","Incredient 2: 50t"]
+  "incredients": "placeholder"
   }]
 
 function recipeClicked(id){

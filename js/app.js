@@ -45,7 +45,7 @@ recipes = [{"id":1,
   "prepT":"999 min", 
   "cookT":"999 min", 
   "servings":"999 servings",
-  "incredients": "incredients": "placeholder"
+  "incredients":"placeholder"
 },
 {"id":2,
 "name":"Greek Ribs", 
@@ -54,7 +54,7 @@ recipes = [{"id":1,
 "prepT":"999 min", 
 "cookT":"999 min", 
 "servings":"999 servings",
-"incredients": "incredients": "placeholder"
+"incredients":"placeholder"
 },
 {"id":3,
   "name":"Vegetable Soup", 

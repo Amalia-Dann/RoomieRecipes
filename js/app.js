@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
-recipes = {"id":1, 
+recipes = [{"id":1, 
   "name":"Carne Asada", 
   "img":"./assets/recipes/recipe-1.jpeg", 
   "content":"Placeholder",
@@ -94,7 +94,17 @@ recipes = {"id":1,
     "ingredients": "250 g couscous (preferably instant couscous) \n ½ cucumber(s)1 pepper(s) \n 1 lemon(s), the juice from it \n 1 pot of yoghurt \n 1 small onion(s) \n pepper \n chilli oil or chilli powder \n 2 tbsp vinegar4 tbsp oilsome vegetable stock, instant salt \n chopped parsley"
     }
     ,
-    {"id":7,
+  {"id":7,
+    "name":"Banana Pancakes", 
+    "img":"./assets/recipes/recipe-4.jpeg", 
+    "content":"Placeholder",
+    "prepT":"999 min", 
+    "cookT":"999 min", 
+    "servings":"999 servings",
+    "ingredients": "placeholder"
+    }
+      ,
+    {"id":8,
       "name":"Banana Pancakes", 
       "img":"./assets/recipes/recipe-4.jpeg", 
       "content":"Placeholder",
@@ -104,24 +114,15 @@ recipes = {"id":1,
       "ingredients": "placeholder"
       }
       ,
-      {"id":8,
-        "name":"Banana Pancakes", 
-        "img":"./assets/recipes/recipe-4.jpeg", 
-        "content":"Placeholder",
-        "prepT":"999 min", 
-        "cookT":"999 min", 
-        "servings":"999 servings",
-        "ingredients": "placeholder"
-        }
-      {"id":9,
-        "name":"Banana Pancakes", 
-        "img":"./assets/recipes/recipe-4.jpeg", 
-        "content":"Placeholder",
-        "prepT":"999 min", 
-        "cookT":"999 min", 
-        "servings":"999 servings",
-        "ingredients": "placeholder"
-        }  
+    {"id":9,
+      "name":"Banana Pancakes", 
+      "img":"./assets/recipes/recipe-4.jpeg", 
+      "content":"Placeholder",
+      "prepT":"999 min", 
+      "cookT":"999 min", 
+      "servings":"999 servings",
+      "ingredients": "placeholder"
+      }]
   
 
 function recipeClicked(id){

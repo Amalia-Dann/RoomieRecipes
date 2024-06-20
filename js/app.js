@@ -35,4 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Trigger initial change to set up the default number of ingredient fields
   ingredientsCountInput.dispatchEvent(new Event('change'));
+
 });
+
+"recipes"[{"id":"carneAsada", "name":"Carne Asada", "img":"./assets/recipes/recipe-1.jpeg", "content":"Placeholder","prepT":"999 min", "cookT":"999 min", "servings":"999 servings"}]
+

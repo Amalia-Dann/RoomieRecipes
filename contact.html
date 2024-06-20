@@ -33,11 +33,11 @@
           <a href="index.html" class="nav-link"> home </a>
           <a href="recipes.html" class="nav-link"> recipes </a>
           <a href="about.html" class="nav-link"> about us </a>
-          <div class="nav-link navbar-search">
+          <div class="navbar navbar-search">
             <input type="text" placeholder="Search..." class="btn">
           </div>
           
-          <div class="nav-link profile-link">
+          <div class="navbar profile-link">
             <a href="profile.html" class="btn">Profile</a>
           </div>
         </div>
@@ -55,19 +55,16 @@
             
           </article>
           <article>
-            <form class="form contact-form">
+            <form id="contactForm" class="form contact-form" action="mailto:keilmassimo@gmail.com" method="GET">
               <div class="form-row">
                 <label html="name" class="form-label">your name</label>
-                <input type="text" name="name" id="name" class="form-input" />
+                <input type="text" name="name" id="name" class="form-input" required />
               </div>
               <div class="form-row">
-                <label html="email" class="form-label">your email</label>
-                <input type="text" name="email" id="email" class="form-input" />
+                <label html="subject" class="form-label">subject</label>
+                <input type="text" name="subject" id="subject" class="form-input" required />
               </div>
-              <div class="form-row">
-                <label html="message" class="form-label">message</label>
-                <textarea name="message" id="message" class="form-textarea"></textarea>
-              </div>
+
               <button type="submit" class="btn btn-block">
                 submit
               </button>

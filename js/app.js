@@ -94,32 +94,35 @@ recipes = [
   "ingredients": "250 g couscous (preferably instant couscous) \n ½ cucumber(s)1 pepper(s) \n 1 lemon(s), the juice from it \n 1 pot of yoghurt \n 1 small onion(s) \n pepper \n chilli oil or chilli powder \n 2 tbsp vinegar4 tbsp oilsome vegetable stock, instant salt \n chopped parsley"
   },
 {"id":7,
-  "name":"Banana Pancakes", 
+  "name":"Lemon potatoes with garlic yoghurt", 
   "img":"./assets/recipes/recipe-7.jpeg", 
-  "content":"Placeholder",
-  "prepT":"999 min", 
-  "cookT":"999 min", 
-  "servings":"999 servings",
-  "ingredients": "placeholder"
-  },
+  "content":"Cut the potatoes into small cubes. Grate the lemon zest and squeeze the fruit. Mix the potato cubes with the lemon zest and juice, oil and stock and place on a baking tray lined with baking foil. Sprinkle with sea salt and bake in a preheated oven at 180°C (fan oven 160°C) on the middle shelf for approx. 25-30 minutes, turning several times.\\n For the dip, crush the garlic, mix with the yoghurt, season with salt and pepper and serve with the lemon potatoes.",
+  "prepT":"30 min", 
+  "cookT":"30 min", 
+  "servings":"4 servings",
+  "ingredients": "8 midsized potato(s) \n 1 lemon(s), untreated \n 2 tbsp olive oil \n 50 ml vegetable stock, made with 3 pinches of instant powder \n 1 tbsp sea salt, coarse \n 2 tbsp parsley, chopped \n 2 clove(s) of garlic \n 300 g low-fat yoghurt \n salt \n pepper"
+  }
+,
 {"id":8,
-  "name":"Banana Pancakes", 
+  "name":"Courgette pancakes", 
   "img":"./assets/recipes/recipe-8.jpeg", 
-  "content":"Placeholder",
-  "prepT":"999 min", 
-  "cookT":"999 min", 
-  "servings":"999 servings",
-  "ingredients": "placeholder"
-  },
+  "content":"Coarsely grate the courgettes on a grater, sprinkle with salt and leave to soak for approx. 15 minutes. Then drain the water and add 4-6 tbsp flour, chopped herbs to taste (parsley, dill, etc.) and eggs and season with salt and pepper. Heat the olive oil and fry the pancakes (approx. 2-3 minutes on each side). These courgette pancakes can be eaten hot or cold! Mix the yoghurt with the crushed garlic clove, salt and pepper and serve!",
+  "prepT":"20 min", 
+  "cookT":"15 min", 
+  "servings":"3 servings",
+  "ingredients": "500 g courgette \n 2 egg(s) \n 6 tbsp flour \n Herbs, chopped, to taste \n olive oil \n 1 pot of yoghurt \n 1 clove(s) of garlic \n salt and pepper"
+  }
+,
 {"id":9,
-  "name":"Banana Pancakes", 
+  "name":"Egyptian Koshari", 
   "img":"./assets/recipes/recipe-9.jpeg", 
   "content":"Placeholder",
-  "prepT":"999 min", 
-  "cookT":"999 min", 
-  "servings":"999 servings",
-  "ingredients": "placeholder"
-   } ]
+  "prepT":"20 min", 
+  "cookT":"20 min", 
+  "servings":"2 servings",
+  "ingredients": "1 tin of chickpeas (150g) \n 1 tin of lentils (150g) \n 400g rice \n 150 g vermicelli (soup noodles) \n 150 g croissant pasta \\n Ingredients for the tomato and vinegar sauce \n 1 tin of strained tomatoes (250 g) \n 3 onions \n 4 garlic cloves \n 2 tbsp tomato puree \n 1 lemon (squeezed) \n 50 ml vinegar \n 1 dash of oil \\n Ingredients for seasoning \n 1 pinch of cumin \n 1 pinch of coriander (dried) \n 1 pinch of chilli (dried) \n 1 pinch of cardamom"
+  }
+  ]
   
 
 function recipeClicked(id){
